@@ -1,8 +1,10 @@
 package com.cg.intro;
 
-public class Example2 {
-
-	public static void main(String[] args) {
+import java.util.Scanner;
+public class Example2 
+{
+	public static void main(String[] args) 
+	{
 		Scanner s=new Scanner(System.in);
 		int a=s.nextInt();
 		double b=s.nextDouble();
@@ -18,7 +20,8 @@ public class Example2 {
 		
 		s.close();
 
-
 	}
+
+	
 
 }
