@@ -2,7 +2,7 @@ package com.indiabix.exception;
 
 public class Program3 
 {
-    public static void main(String []args)
+    public static void main(String args[])
     {
     	System.out.println(Program3.myMethod());
     }
@@ -12,9 +12,9 @@ public class Program3
     	{
     		int x=63;
     		int y=0;
-    		int c=x/y;
+    		int z=x/y;
     		System.out.println("Inside try Block");
-    		System.exit(0);
+    		System.exit(C);
     	}
     	catch(Exception exp)
     	{
@@ -23,7 +23,7 @@ public class Program3
     	finally
     	{
     		System.out.println("Java finally Block");
-    		return ;
+    		return C;
     	}
     }
 }
