@@ -18,7 +18,8 @@ class Child4 extends Parent4
 }
 public class Example7 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Child4 c=new Child4();
 		
 	}
