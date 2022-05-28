@@ -1,4 +1,4 @@
-package com.indiabix.jdbc.connection;
+package com.indiabix.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
