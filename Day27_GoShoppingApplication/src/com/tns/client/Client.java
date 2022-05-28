@@ -12,8 +12,8 @@ public class Client {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		ShopFactory s=new GSShopFactory();
-		PrimeAcc p=new GSPrimeAcc(181,"Ankita", 500, true);
-		NormalAcc n=new GSNormalAcc(182,"Pratyenchya",500,50);
+		PrimeAcc p=new GSPrimeAcc(181,"Roshan", 500, true);
+		NormalAcc n=new GSNormalAcc(182,"Rohit",500,50);
 		System.out.println("Prime Account");
 		p.bookProduct(p.getCharges());
 		System.out.println("Normal Account");
